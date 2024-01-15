@@ -1,0 +1,106 @@
+.banner-content{
+    width: 1170px;
+height: 500px;
+background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+border-radius: 16px;
+color: white;
+margin: 0 auto;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+}
+.banner-text{
+    
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-title{
+padding-top: 90px;
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-des{
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.container-form{
+    width: 800px;
+    height: 70px;
+    padding: 16px;
+    margin: 0 auto;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+ 
+}
+.container-form form{
+  
+    justify-content: space-between;
+}
+.where-go{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#travel-time{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#select-type{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.form-button{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: #FF5400;
+}
