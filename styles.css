@@ -2,6 +2,7 @@
     width: 1170px;
 height: 500px;
 background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+border-color: white;
 border-radius: 16px;
 color: white;
 margin: 60px auto;
@@ -46,7 +47,7 @@ line-height: 26px;
     margin: 0 auto;
     background: transparent;
     backdrop-filter: blur(5px);
-    border-radius: 8px;
+    border-color: white;
  
 }
 .container-form form{
@@ -57,6 +58,7 @@ line-height: 26px;
     width: 170px;
     height: 50px;
     border-radius: 8px;
+    border-color: white;
     color: rgba(19, 19, 24, 0.50);
 
 text-align: center;
@@ -70,6 +72,7 @@ line-height: normal;
     width: 170px;
     height: 50px;
     border-radius: 8px;
+    border-color: white;
     color: rgba(19, 19, 24, 0.50);
 
 font-family: Mulish;
@@ -82,6 +85,7 @@ line-height: normal;
     width: 170px;
     height: 50px;
     border-radius: 8px;
+    border-color: white;
     color: rgba(19, 19, 24, 0.50);
 
 font-family: Mulish;
@@ -94,6 +98,7 @@ line-height: normal;
     width: 170px;
     height: 50px;
     border-radius: 8px;
+    border-color: #FF5400;
     color: #FFF;
 
 text-align: center;
@@ -147,6 +152,7 @@ line-height: 26px;
     width: 175px;
     height: 50px;
     border-radius: 8px;
+    border-color:  #FF5400;
 background: #FF5400;
 color: #FFF;
 
@@ -161,6 +167,27 @@ line-height: normal;
     width: 1170px;
     margin: 100px auto;
 }
+.locations-des{
+    text-align: center;
+}
+.locations-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.locations-text{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
 .locations-images {
     display: grid;
     gap: 24px;
@@ -171,23 +198,376 @@ line-height: normal;
     width: 100%;
 }
 .img-1{
+    position: relative;
     grid-column: 1/span 6;
 }
+.img-text1{
+position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .img-2{
+    position: relative;
     grid-column: 7/span 6;
 }
+.img-text2{
+    position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .img-3{
+    position: relative;
     grid-column: 1/span 4;
 }
+.img-text3{
+    position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .img-4{
+    position: relative;
     grid-column: 5/span 5;
 }
+.img-text4{
+    position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .img-5{
+    position: relative;
     grid-column: 10/span 3;
 }
+.img-text5{
+    position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .img-6{
+    position: relative;
     grid-column: 1/span 5;
 }
+.img-text6{
+    position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 .img-7{
+    position: relative;
     grid-column: 6/span 7;
+}
+.img-text7{
+    position: absolute;
+top: 30%;
+left: 40%;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.newsletter{
+    width: 1170px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.news-text{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+display: flex;
+flex-direction: column;
+padding: 40px;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.input-box input{
+    width: 393px;
+height: 52px;
+
+    border-radius: 8px;
+    border-color: white;
+background: rgba(19, 19, 24, 0.05);
+}
+.btn{
+    width: 393px;
+height: 52px;
+    border-radius: 8px;
+    border-color: #FF5400;
+background: #FF5400;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.news-title{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.news-des{
+    color: #5A5A5D;
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.line{
+    width: 393px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
+.news-img{
+    width: 672px;
+height: 422px;
+position: relative;
+}
+.img-deal{
+    width: 324px;
+height: 120px;
+position: absolute;
+transform: rotate(-19.628deg) translateX(400px) translateY(-50px);
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+padding-bottom: 35px;
+}
+.img-deal-text{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.img-deal-title{
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+footer{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(19, 19, 24, 0.05);
+    gap: 30px;
+}
+
+footer img{
+    width: 175px;
+    height: 24px;
+}
+.footer-line{
+    width: 872px;
+height: 1px;
+background-color: rgba(19, 19, 24, 0.10);
+}
+.choose-des{
+    text-align: center;
+}
+.choose-title{
+    color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.choose-text{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.cards{
+    width: 1170px;
+    margin: 100px auto;
+}
+.choose-card{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.card-1{
+    padding: 30px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+grid-column: 1/span 6;
+
+}
+.card-2{
+    padding: 30px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+grid-column: 7/span 6;
+}
+.card-3{
+    padding: 30px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+grid-column: 4/span 6;
+}
+.hotel{
+    color: #131318;
+
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hotel-des{
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.map{
+    color: #131318;
+
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.map-des{
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.tag{
+    color: #131318;
+
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tag-des{
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.footer-des{
+    color: #5A5A5D;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.legal{
+    color: #131318;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
