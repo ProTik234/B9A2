@@ -1,6 +1,16 @@
 
 @media screen and (max-width: 600px){
+.nav-con{
+    width: auto;
+    height: auto;
+}
+.nav-menu {
+    display: none;
+}
 
+.nav-menu-ham img{
+    display: block;
+}
     .banner-content {
         width: auto;
         height: auto;
@@ -128,5 +138,8 @@ font-weight: 400;
         background-repeat: no-repeat;
 background-size: cover;
 padding-bottom: 24px;
+    }
+    .footer-line{
+        width: 100%;
     }
 }

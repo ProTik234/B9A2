@@ -1,3 +1,71 @@
+.nav-con{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    gap:16px;
+    align-items: center;
+}
+.nav-title img{
+    width: 48px;
+height: 56.008px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu-ham img{
+    display: none;
+}
+.nav-name{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.home {
+    color: #FF5400;
+
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.package {
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.testimonial {
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contact  {
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .banner-content{
     width: 1170px;
 height: 500px;
@@ -608,6 +676,7 @@ line-height: normal;
 }
 .footer-icon{
     display: flex;
+    gap: 16px;
     justify-content: space-around;
     align-items: center;
 }
