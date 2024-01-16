@@ -4,6 +4,7 @@ height: 500px;
 background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
 border-color: white;
 border-radius: 16px;
+
 color: white;
 margin: 60px auto;
 flex-direction: column;
@@ -51,8 +52,9 @@ line-height: 26px;
  
 }
 .container-form form{
+    
+    justify-content: center;
   
-    justify-content: space-between;
 }
 .where-go{
     width: 170px;
@@ -61,7 +63,7 @@ line-height: 26px;
     border-color: white;
     color: rgba(19, 19, 24, 0.50);
 
-text-align: center;
+text-align: left;
 font-family: Mulish;
 font-size: 16px;
 font-style: normal;
@@ -569,5 +571,55 @@ font-family: Inter;
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
+line-height: normal;
+}
+.extra{
+    width: 1170px;
+    height: 500px;
+    margin: 100px auto;
+    background-image: url('Images/bus.jpg');
+    border-radius: 16px;
+    text-align: center;
+}
+.extra-text{
+    padding-top: 150px;
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.extra-btn{
+    width: 193px;
+height: 52px;
+    border-radius: 8px;
+    border-color: #FF5400;
+background: #FF5400;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-icon img{
+    width: 40px;
+height: 46.673px;
+}
+.travel{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
 line-height: normal;
 }

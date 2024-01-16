@@ -1,0 +1,125 @@
+
+@media screen and (max-width: 600px){
+
+    .banner-content {
+        width: auto;
+        height: auto;
+        background-repeat: no-repeat;
+background-size: cover;
+    }
+    .container-form {
+        width: auto;
+        height: auto;
+    
+    }
+    .banner-text{
+        width: auto;
+        height: auto;
+    }
+    .banner-des{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .container-form form{
+        display: flex;
+flex-direction: column;
+gap: 16px
+    }
+    .where-go{
+        width: 100%;
+    }
+    #travel-time{
+        width: 100%;
+    }  
+    #select-type{
+        width: 100%;
+    } 
+    .form-button{
+        width: 100%;
+    }
+    .popular-tours{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        gap:24px
+    }
+    .tour-des-img{
+        padding-left: 5px;
+    }
+    .tour-des-img img{
+        width: 335px;
+height: 342px;
+    }
+    .container-locations{
+        width: auto;
+        height: auto;
+
+    }
+    .locations-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        width: auto;
+        height: auto;
+    }
+    .choose-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-1{
+        max-width:335px;
+        padding: 20px;
+
+    }
+    .card-2{
+        max-width:335px;
+        padding: 20px;
+    }
+    .card-3{
+        max-width:335px;
+        padding: 20px;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        gap:24px
+    }
+    .news-text{
+        max-width:335px;
+        padding: 20px;
+    }
+    .line{
+        width: 100%;
+    }
+    .input-box input{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .news-img img{
+        width: 335px;
+height: 300px;
+    }
+    .img-deal{
+        width: auto;
+        height: auto;
+        transform: rotate(-19.628deg) translateX(250px) translateY(-50px);
+        padding: 10px;
+    }
+    .img-deal-text{
+        font-size: 12px;
+font-weight: 200;
+    }
+    .img-deal-title{
+        font-size: 16px;
+font-weight: 400;
+    }
+    .extra{
+        width: auto;
+        height: auto;
+        background-repeat: no-repeat;
+background-size: cover;
+    }
+}
